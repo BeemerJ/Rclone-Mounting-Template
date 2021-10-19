@@ -11,7 +11,7 @@ When you are done using your Storage System, you may safely close the command pr
 
 * An already created rclone Remote: eg. Google Drive: https://rclone.org/drive/ (check the website for more supported storage systems). 
 
-* WinFSP: https://github.com/billziss-gh/winfsp/releases/ (The Latest Release is reccomended).
+* WinFSP: https://github.com/billziss-gh/winfsp/releases/ (the Latest Release is reccomended).
 
 ## The Template...
 
