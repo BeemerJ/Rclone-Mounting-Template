@@ -1,4 +1,4 @@
-# rclone Mounting Template
+# **rclone** Mounting Template
 A Batch Script to easily mount any created Storage System using rclone and WinFSP, pretty beginner friendly :)
 
 *WARNING*: Do NOT run using Administrator privileges.
@@ -15,18 +15,20 @@ When you are done using your Storage System, you may safely close the command pr
 
 ## The Template...
 
-::toggle viewing input commands. -Default = off
+Toggle viewing input commands:
 	
 	@echo off	
 
-::rclone folder directory. (coordinates to folder containing "rclone.exe")
+Rclone Folder directory (coordinates to the folder containing "rclone.exe"):
 	
-	cd C:\rclone\
+	cd C:\your\directory\here\
 
-::mounts the remote (created through "rclone config") to the designated drive letter.
+Mount the remote (created through "[rclone config](https://rclone.org/commands/rclone_config/)") to the designated drive letter: 
+>*Remove the parenthesis (**NOT the Quotation Marks**) when you are done adding your remote info.*
 	
-	rclone mount --vfs-cache-mode full *"Your Remote Name Here"*: *Drive Letter Here*:
+	rclone mount --vfs-cache-mode full ("Your Remote Name Here"): (Drive Letter Here):
 
-::enables the "press any key to continue" prompt. (should only show when an error is given)
+Enable the "Press any key to continue..." prompt: 
+>*(should only show when an error is given)*
 	
 	pause
