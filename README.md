@@ -9,7 +9,7 @@ When you are done using your Storage System, you may safely close the command pr
 # Pre-Requisites:
 * Rclone: https://rclone.org/downloads/
 
-* An already created Rclone Remote: eg. Google Drive: https://rclone.org/drive/ (check the website to see other supported storage systems). 
+* An already created Rclone Remote: eg. Google Drive: https://rclone.org/drive/ (check the website for more supported storage systems). 
 
 * WinFSP: https://github.com/billziss-gh/winfsp/releases/ (The Latest Release is reccomended).
 
