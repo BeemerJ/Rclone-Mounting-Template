@@ -6,14 +6,14 @@ A Batch Script to easily mount any created Storage System using rclone and WinFS
 Once the service has started, check your designated drive.
 When you are done using your Storage System, you may safely close the command prompt.
 
-# Prerequisites:
+## Prerequisites:
 * rclone: https://rclone.org/downloads/
 
 * An already created rclone Remote: eg. Google Drive: https://rclone.org/drive/ (check the website for more supported storage systems). 
 
 * WinFSP: https://github.com/billziss-gh/winfsp/releases/ (The Latest Release is reccomended).
 
-# The Template...
+## The Template...
 
 ::toggle viewing input commands. -Default = off
 	
