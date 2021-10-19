@@ -28,7 +28,7 @@ Change directory to rclone folder:
 Mount the remote to the designated drive letter: 
 >* *Remotes are created through running "[rclone config](https://rclone.org/commands/rclone_config/)"*
 >
->* Replace "X X X" with your created remote name *(eg. Drive or "Google Drive")*, then Replace "X" (Singular) with your desired Drive letter *(eg. C:)*.
+>* Replace "X X X" with your created remote name *(eg. Drive or "Google Drive")*, then Replace "X:" with your desired Drive letter *(eg. C:)*.
 >
 >* *DO NOT Remove Quotation marks if your remote contains spaces*
 	
