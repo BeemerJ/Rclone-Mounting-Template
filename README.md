@@ -16,21 +16,25 @@ When you are done using your Storage System, you may safely close the command pr
 ## The Template...
 
 Toggle viewing input commands:
->*(on/off)*
+>* *(on/off)*
 	
 	@echo off	
 
 Rclone Folder directory: 
->*(coordinates to the folder containing "rclone.exe")*
+>* *(coordinates to the folder containing "rclone.exe")*
 	
 	cd C:\your\directory\here\
 
-Mount the remote (created through "[rclone config](https://rclone.org/commands/rclone_config/)") to the designated drive letter: 
->*Remove the parenthesis (**NOT the Quotation Marks**) when you are done adding your remote info.*
+Mount the remote to the designated drive letter: 
+>* *(Remotes are created through running "[rclone config](https://rclone.org/commands/rclone_config/)")*
+>
+>* Replace "X X X" with your created remote name *(eg. Drive or "Google Drive")*, then Replace "X" (Singular) with your desired Drive letter *(eg. C:)*.
+>
+>* (*DO NOT Remove Quotation marks if your remote contains spaces*)
 	
-	rclone mount --vfs-cache-mode full ("Your Remote Name Here"): (Drive Letter Here):
+	rclone mount --vfs-cache-mode full "X X X": X:
 
 Enable the "Press any key to continue..." prompt: 
->*(should only show when an error is given)*
+>* *(should only show when an error is given)*
 	
 	pause
