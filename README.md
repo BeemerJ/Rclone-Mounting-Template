@@ -25,7 +25,7 @@ When you are done using your Storage System, you may safely close the command pr
 
 ::mounts the remote (created through "rclone config") to the designated drive letter.
 	
-	rclone mount --vfs-cache-mode full ("Your Remote Name Here"): (Drive Letter Here):
+	rclone mount --vfs-cache-mode full *"Your Remote Name Here"*: *Drive Letter Here*:
 
 ::enables the "press any key to continue" prompt. (should only show when an error is given)
 	
