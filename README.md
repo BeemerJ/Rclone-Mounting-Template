@@ -16,7 +16,7 @@ When you are done using your Storage System, you may safely close the command pr
 ## The Template...
 
 Toggle viewing input commands:
->* *on/off*
+>* *on/off*.
 	
 	@echo off	
 
@@ -26,15 +26,15 @@ Change directory to rclone folder:
 	cd C:\your\directory\here\
 
 Mount the remote to the designated drive letter: 
->* *Remotes are created through running "[rclone config](https://rclone.org/commands/rclone_config/)"*
+>* *Remotes are created through running "[rclone config](https://rclone.org/commands/rclone_config/)"*.
 >
 >* Replace ***"X X X"*** with your created remote name *(eg. Drive or "Google Drive")*, then Replace ***X:*** with your desired Drive letter *(eg. C:)*.
 >
->* *Do **NOT** Remove Quotation Marks if your created remote contains spaces*
+>* *Do **NOT** Remove Quotation Marks if your created remote contains spaces*.
 	
 	rclone mount --vfs-cache-mode full "X X X": X:
 
 Enable the "Press any key to continue..." prompt: 
->* *Should only really show up when an error is given*
+>* *Should only really show up when an error is given*.
 	
 	pause
