@@ -1,5 +1,5 @@
-# Rclone-Mounting-Template
-A .bat Script to easily mount any created Drive using Rclone and WinFSP.
+# rclone Mounting Template
+A .bat Script to easily mount any created Drive using Rclone and WinFSP, pretty beginner friendly :)
 
 WARNING: Do NOT run using Administrator privileges.
 
@@ -7,9 +7,9 @@ Once the service has started, check your designated drive.
 When you are done using your Storage System, you may safely close the command prompt.
 
 # Prerequisites:
-* Rclone: https://rclone.org/downloads/
+* rclone: https://rclone.org/downloads/
 
-* An already created Rclone Remote: eg. Google Drive: https://rclone.org/drive/ (check the website for more supported storage systems). 
+* An already created rclone Remote: eg. Google Drive: https://rclone.org/drive/ (check the website for more supported storage systems). 
 
 * WinFSP: https://github.com/billziss-gh/winfsp/releases/ (The Latest Release is reccomended).
 
@@ -19,7 +19,7 @@ When you are done using your Storage System, you may safely close the command pr
 	
 	@echo off	
 
-::Rclone folder directory. (coordinates to folder containing "rclone.exe")
+::rclone folder directory. (coordinates to folder containing "rclone.exe")
 	
 	cd C:\rclone\
 
