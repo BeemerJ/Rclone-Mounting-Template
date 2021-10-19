@@ -21,7 +21,7 @@ Toggle viewing input commands:
 	@echo off	
 
 Change directory to rclone folder: 
->* *coordinates to the folder containing "rclone.exe"*
+>* *Coordinates to the folder containing "rclone.exe"*
 	
 	cd C:\your\directory\here\
 
@@ -35,6 +35,6 @@ Mount the remote to the designated drive letter:
 	rclone mount --vfs-cache-mode full "X X X": X:
 
 Enable the "Press any key to continue..." prompt: 
->* *(should only show when an error is given)*
+>* *(Should only show when an error is given)*
 	
 	pause
