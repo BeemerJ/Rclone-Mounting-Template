@@ -1,5 +1,5 @@
 # rclone Mounting Template
-A .bat Script to easily mount any created Drive using Rclone and WinFSP, pretty beginner friendly :)
+A Batch Script to easily mount any created Storage System using rclone and WinFSP, pretty beginner friendly :)
 
 WARNING: Do NOT run using Administrator privileges.
 
