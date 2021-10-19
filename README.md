@@ -35,6 +35,6 @@ Mount the remote to the designated drive letter:
 	rclone mount --vfs-cache-mode full "X X X": X:
 
 Enable the "Press any key to continue..." prompt: 
->* *(Should only show up when an error is given)*
+>* *Should only really show up when an error is given*
 	
 	pause
