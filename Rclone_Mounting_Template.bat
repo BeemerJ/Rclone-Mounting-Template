@@ -20,7 +20,7 @@
 
 @echo off
 cd C:\rclone\
-rclone mount --vfs-cache-mode full ("Your Remote Here"): (Drive Letter Here):
+rclone mount --vfs-cache-mode full "Your Remote Here": X:
 pause
 
 ::Script End-----
