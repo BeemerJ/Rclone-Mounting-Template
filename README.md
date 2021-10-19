@@ -16,10 +16,12 @@ When you are done using your Storage System, you may safely close the command pr
 ## The Template...
 
 Toggle viewing input commands:
+>*(on/off)*
 	
 	@echo off	
 
-Rclone Folder directory (coordinates to the folder containing "rclone.exe"):
+Rclone Folder directory: 
+>*(coordinates to the folder containing "rclone.exe")*
 	
 	cd C:\your\directory\here\
 
