@@ -1,5 +1,5 @@
 
-::rclone Mounting Template: https://github.com/Code-Moss/Rclone-Mounting-Template#rclone-mounting-template
+::rclone Mounting Template: https://github.com/Code-Moss/Rclone-Mounting-Template
 
 ::WARNING: Do NOT run using Administrator privileges.
 
