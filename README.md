@@ -1,7 +1,7 @@
 # rclone Mounting Template
 A Batch Script to easily mount any created Storage System using rclone and WinFSP, pretty beginner friendly :)
 
-WARNING: Do NOT run using Administrator privileges.
+*WARNING*: Do NOT run using Administrator privileges.
 
 Once the service has started, check your designated drive.
 When you are done using your Storage System, you may safely close the command prompt.
