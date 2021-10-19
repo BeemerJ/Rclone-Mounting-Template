@@ -20,7 +20,7 @@ Toggle viewing input commands:
 	
 	@echo off	
 
-Rclone Folder directory: 
+rclone Folder directory: 
 >* *(coordinates to the folder containing "rclone.exe")*
 	
 	cd C:\your\directory\here\
