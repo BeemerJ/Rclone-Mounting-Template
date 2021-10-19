@@ -30,7 +30,7 @@ Mount the remote to the designated drive letter:
 >
 >* Replace ***"X X X"*** with your created remote name *(eg. Drive or "Google Drive")*, then Replace ***X:*** with your desired Drive letter *(eg. C:)*.
 >
->* *Do **NOT** Remove Quotation marks if your remote contains spaces*
+>* *Do **NOT** Remove Quotation Marks if your created remote contains spaces*
 	
 	rclone mount --vfs-cache-mode full "X X X": X:
 
