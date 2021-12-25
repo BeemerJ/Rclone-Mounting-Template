@@ -15,7 +15,7 @@ When you are done using your Storage System, you may safely close the command pr
 
 ## The Template...
 
-Toggle viewing input commands:
+Toggle viewing input commands (Optional):
 >* *on/off*.
 	
 	@echo off	
